@@ -1,5 +1,5 @@
 --- 
-hash: c36d356bc9c510944aa1b5f62ddd1ef8314541ba
+hash: 85c198ee772243e6177e2bb90687889b51f7cc2b
 sources: 
 - Rubygems: 
     uri: http://rubygems.org
@@ -117,7 +117,29 @@ dependencies:
     version: = 2.0.0.beta.12
     group: 
     - :development
+    - :test
+  nokogiri: 
+    version: = 1.4.3.1
+    group: 
+    - :development
+    - :test
   rspec: 
     version: = 2.0.0.beta.12
     group: 
+    - :development
+    - :test
+  rspec-core: 
+    version: = 2.0.0.beta.12
+    group: 
+    - :development
+    - :test
+  rspec-expectations: 
+    version: = 2.0.0.beta.12
+    group: 
+    - :development
+    - :test
+  rspec-mocks: 
+    version: = 2.0.0.beta.12
+    group: 
+    - :development
     - :test

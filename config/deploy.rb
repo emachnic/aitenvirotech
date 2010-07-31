@@ -18,7 +18,7 @@ set :rails_env, 'production'
 # these http://github.com/rails/irs_process_scripts
 namespace :deploy do
   after "deploy:update_code", :roles => [:web] do
-    run "cd #{release_path} && bundle install"
+    run "cd #{release_path} && bundle install --without development test"
   end
   task :start do ; end
   task :stop do ; end
