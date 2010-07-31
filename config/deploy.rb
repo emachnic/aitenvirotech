@@ -17,6 +17,9 @@ set :rails_env, 'production'
 # if you're still using the script/reapear helper you will need
 # these http://github.com/rails/irs_process_scripts
 namespace :deploy do
+  after "deploy:update_code", :roles => [:web] do
+    run "cd #{release_path} && bundle install"
+  end
   task :start do ; end
   task :stop do ; end
   task :restart, :roles => :app, :except => { :no_release => true } do
