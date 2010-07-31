@@ -11,7 +11,7 @@ html {
   box-shadow: 0 0 8px white;
   -moz-box-shadow: 0 0 8px white;
   -webkit-box-shadow: 0 0 8px white;
-  filter: progid:DXImageTransform.Microsoft.Shadow(color='#ffffff', Strength=8); }
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#ffffff', Direction=135, Strength=5); }
   #logo a {
     display: block; }
     #logo a img {
