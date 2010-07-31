@@ -1,5 +1,5 @@
 --- 
-hash: c36d356bc9c510944aa1b5f62ddd1ef8314541ba
+hash: 3b18e57a843a2198e7d0d59c5b09628d36ae4f70
 sources: 
 - Rubygems: 
     uri: http://rubygems.org
@@ -64,34 +64,18 @@ specs:
     version: 1.0.1
 - capistrano: 
     version: 2.5.19
-- diff-lcs: 
-    version: 1.1.2
 - flutie: 
     version: 1.0.3
 - mysql: 
     version: 2.8.1
 - nifty-generators: 
     version: 0.4.0
-- nokogiri: 
-    version: 1.4.3.1
 - thor: 
     version: 0.13.8
 - railties: 
     version: 3.0.0.beta3
 - rails: 
     version: 3.0.0.beta3
-- rspec-core: 
-    version: 2.0.0.beta.12
-- rspec-expectations: 
-    version: 2.0.0.beta.12
-- rspec-mocks: 
-    version: 2.0.0.beta.12
-- rspec: 
-    version: 2.0.0.beta.12
-- webrat: 
-    version: 0.7.1
-- rspec-rails: 
-    version: 2.0.0.beta.12
 dependencies: 
   rails: 
     version: = 3.0.0.beta3
@@ -113,11 +97,3 @@ dependencies:
     version: ">= 0"
     group: 
     - :default
-  rspec-rails: 
-    version: = 2.0.0.beta.12
-    group: 
-    - :development
-  rspec: 
-    version: = 2.0.0.beta.12
-    group: 
-    - :test
