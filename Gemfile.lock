@@ -1,5 +1,5 @@
 --- 
-hash: 27d3a47de01e26430d0e539ea86127b894ab9f1f
+hash: c36d356bc9c510944aa1b5f62ddd1ef8314541ba
 sources: 
 - Rubygems: 
     uri: http://rubygems.org
@@ -81,17 +81,17 @@ specs:
 - rails: 
     version: 3.0.0.beta3
 - rspec-core: 
-    version: 2.0.0.beta.18
+    version: 2.0.0.beta.12
 - rspec-expectations: 
-    version: 2.0.0.beta.18
+    version: 2.0.0.beta.12
 - rspec-mocks: 
-    version: 2.0.0.beta.18
+    version: 2.0.0.beta.12
 - rspec: 
-    version: 2.0.0.beta.18
+    version: 2.0.0.beta.12
 - webrat: 
     version: 0.7.1
 - rspec-rails: 
-    version: 2.0.0.beta.18
+    version: 2.0.0.beta.12
 dependencies: 
   rails: 
     version: = 3.0.0.beta3
@@ -114,10 +114,10 @@ dependencies:
     group: 
     - :default
   rspec-rails: 
-    version: = 2.0.0.beta.18
+    version: = 2.0.0.beta.12
     group: 
     - :development
   rspec: 
-    version: = 2.0.0.beta.18
+    version: = 2.0.0.beta.12
     group: 
     - :test
