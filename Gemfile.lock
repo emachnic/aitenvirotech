@@ -1,5 +1,5 @@
 --- 
-hash: 2e6a3dca0eb71642c935cc815bd16f1ff9f905a8
+hash: 2f86b94cdd107ed43427d0b15bcca0e4d7523e40
 sources: 
 - Rubygems: 
     uri: http://rubygems.org
@@ -66,8 +66,6 @@ specs:
     version: 2.5.19
 - configuration: 
     version: 1.1.0
-- diff-lcs: 
-    version: 1.1.2
 - flutie: 
     version: 1.0.3
 - json_pure: 
@@ -82,26 +80,12 @@ specs:
     version: 2.8.1
 - nifty-generators: 
     version: 0.4.0
-- nokogiri: 
-    version: 1.4.3.1
 - thor: 
     version: 0.13.8
 - railties: 
     version: 3.0.0.beta3
 - rails: 
     version: 3.0.0.beta3
-- rspec-core: 
-    version: 2.0.0.beta.18
-- rspec-expectations: 
-    version: 2.0.0.beta.18
-- rspec-mocks: 
-    version: 2.0.0.beta.18
-- rspec: 
-    version: 2.0.0.beta.18
-- webrat: 
-    version: 0.7.1
-- rspec-rails: 
-    version: 2.0.0.beta.18
 dependencies: 
   rails: 
     version: = 3.0.0.beta3
@@ -127,11 +111,3 @@ dependencies:
     version: ">= 0"
     group: 
     - :default
-  rspec-rails: 
-    version: = 2.0.0.beta.18
-    group: 
-    - :development
-  rspec: 
-    version: = 2.0.0.beta.18
-    group: 
-    - :test
