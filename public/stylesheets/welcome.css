@@ -8,9 +8,10 @@ html {
   margin: 30px auto 0 auto;
   text-align: center;
   width: 479px;
-  box-shadow: 0 0 8px white;
-  -moz-box-shadow: 0 0 8px white;
-  -webkit-box-shadow: 0 0 8px white;
+  box-shadow: 0 0 8px white; /* White shadow around entire box */
+  -moz-box-shadow: 0 0 8px white; /* Box shadow for Firefox */
+  -webkit-box-shadow: 0 0 8px white; /* Box shadow for Webkit browsers */
+  /* IE won't do box shadows so filter creates an offset shadow in IE8 and below */
   filter: progid:DXImageTransform.Microsoft.Shadow(color='#ffffff', Direction=135, Strength=5); }
   #logo a {
     display: block; }
