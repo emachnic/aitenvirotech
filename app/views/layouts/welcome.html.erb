@@ -11,6 +11,11 @@
     <% flash.each do |name, msg| %>
       <%= content_tag :div, msg, :id => "flash_#{name}" %>
     <% end %>
-    <%= yield %>
+    <div id="content">
+      <%= yield %>
+    </div>
+    <footer>
+      
+    </footer>
   </body>
 </html>
