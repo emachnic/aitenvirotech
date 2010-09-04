@@ -10,7 +10,7 @@ gem 'haml'
 #gem 'heroku'
 
 # Deploy with Capistrano
-gem 'capistrano'
+#gem 'capistrano'
 gem 'flutie', '1.0.3'
 gem 'nifty-generators'
 
