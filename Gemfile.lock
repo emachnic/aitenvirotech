@@ -107,6 +107,7 @@ DEPENDENCIES
   flutie (= 1.0.3)
   haml
   mysql
+  net-scp (= 1.0.3)
   nifty-generators
   nokogiri (= 1.4.3.1)
   rails (= 3.0.0)
