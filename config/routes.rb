@@ -1,6 +1,16 @@
 Aitenvirotech::Application.routes.draw do |map|
+  get "residentials/index"
+  get "commercials/index"
+  get "educations/index"
+  get "governments/index"
+  get "athletics/index"
   get "welcome/index"
 
+  match '/athletics' => 'athletics#index', :as => :athletics
+  match '/governmental' => 'governments#index', :as => :governments
+  match '/educational' => 'educations#index', :as => :educations
+  match '/commercial' => 'commercials#index', :as => :commercials
+  match '/residential' => 'residentials#index', :as => :residentials
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
