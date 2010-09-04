@@ -100,3 +100,4 @@ DEPENDENCIES
   rspec-expectations (= 2.0.0.beta.18)
   rspec-mocks (= 2.0.0.beta.18)
   rspec-rails (= 2.0.0.beta.18)
+  treetop
