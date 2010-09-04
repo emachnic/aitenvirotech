@@ -7,7 +7,6 @@ gem 'rails', '3.0.0'
 
 gem 'mysql'
 gem 'haml'
-gem 'net-scp', '1.0.3'
 #gem 'heroku'
 
 # Deploy with Capistrano
