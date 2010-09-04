@@ -19,7 +19,7 @@ set :rails_env, 'production'
 namespace :deploy do
   after "deploy:update_code", :roles => [:web] do
     set :use_sudo, false
-    run "cd #{release_path} && bundle install --without development test"
+    run "cd #{release_path} && bundle install --local --without development test"
   end
   task :start do ; end
   task :stop do ; end
