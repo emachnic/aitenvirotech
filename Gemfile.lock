@@ -35,7 +35,7 @@ GEM
     erubis (2.6.6)
       abstract (>= 1.0.0)
     flutie (1.0.3)
-    haml (3.0.18)
+    haml (2.2.10)
     i18n (0.4.1)
     mail (2.2.5)
       activesupport (>= 2.3.6)
@@ -90,7 +90,7 @@ PLATFORMS
 
 DEPENDENCIES
   flutie (= 1.0.3)
-  haml
+  haml (= 2.2.10)
   mysql
   nifty-generators
   nokogiri (= 1.4.3.1)
@@ -100,4 +100,4 @@ DEPENDENCIES
   rspec-expectations (= 2.0.0.beta.18)
   rspec-mocks (= 2.0.0.beta.18)
   rspec-rails (= 2.0.0.beta.18)
-  treetop
+  treetop (= 1.4.8)
