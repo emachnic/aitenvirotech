@@ -6,8 +6,7 @@ gem 'rails', '3.0.0'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql'
-gem 'haml', '2.2.10'
-gem 'treetop', '1.4.8'
+gem 'haml', '3.0.18'
 #gem 'heroku'
 
 # Deploy with Capistrano
